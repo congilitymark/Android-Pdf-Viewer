@@ -26,9 +26,17 @@ Ti.API.info("module is => " + androidpdf);
  * This method accepts a dictionary with a key-value pair.
  * fileName is the name of the file minus the .pdf extension.
  */
+
+
 </br>
+
+
 androidpdf.openPDF({
 	'fileName' : 'Name of the file without .pdf extension.'
 })
+
+
 </br>
+
+
 win.open();
