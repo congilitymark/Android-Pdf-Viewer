@@ -4,8 +4,8 @@
 #
 version: 0.1
 apiversion: 2
-description: My module
-author: Your Name
+description: Module to view pdf inside app in android
+author: Ishan Singh
 license: Specify your license
 copyright: Copyright (c) 2014 by Your Company
 
