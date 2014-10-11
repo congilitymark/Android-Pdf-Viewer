@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:paddingBottom="4dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="5dip" >
+
+    <ImageButton
+        android:id="@+id/zoom_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:src="@drawable/zoom_out"
+        android:text="Zoom Out" />
+
+    <ImageButton
+        android:id="@+id/zoom_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:src="@drawable/zoom_in"
+        android:text="Zoom In" />
+
+    <TextView
+        android:id="@+id/navigation_page_position_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="60"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:text="1/1" />
+
+    <ImageButton
+        android:id="@+id/navigation_previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:src="@drawable/left_arrow"
+        android:text="Previous" />
+
+    <ImageButton
+        android:id="@+id/navigation_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:src="@drawable/right_arrow"
+        android:text="Next" />
+
+</LinearLayout>
