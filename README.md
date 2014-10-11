@@ -6,7 +6,9 @@ This is a android module for viewing the pdf files inside your titanium android 
 
 Following is the example to use.
 
-// open a single window \n
+// open a single window
+
+</br>
 var win = Ti.UI.createWindow({
 	backgroundColor : 'white'
 });
