@@ -62,7 +62,7 @@ public class AndroidpdfModule extends KrollModule {
 			openPdfIntent(getFile.getAbsolutePath());
 		} else {
 			throw new FileNotFoundException("The file name " + fileName
-					+ "does not exists");
+					+ " does not exists");
 		}
 	}
 
