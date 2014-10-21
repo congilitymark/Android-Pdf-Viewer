@@ -4,7 +4,7 @@
 #
 version: 0.1
 apiversion: 2
-description: Module to view pdf inside app in android
+description: Module to view pdf inside app in android without using intents to open external application
 author: Ishan Singh
 license: Specify your license
 copyright: Copyright (c) 2014 by Your Company
